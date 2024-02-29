@@ -29,6 +29,7 @@
     font-size: 20px;
     margin-right: 5px;
     cursor: pointer;z-index: 2;
+    margin-left: 10px;
 }
 .right-nav .cart-nav {
     position: relative;

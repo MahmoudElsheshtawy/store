@@ -22,7 +22,6 @@ const Navbarr = () => {
     window.addEventListener("scroll", handleScroll);
   }, []);
 
-  // const { cartQuntity } = useShoppingCart();
 
   const cart = useSelector((state) => state.cart);
   // console.log(cart);
@@ -34,7 +33,7 @@ const Navbarr = () => {
       >
         <div className="center">
           <a href="#" style={{ textDecoration: "none", color: "#fff" }}>
-            <span>Sh Store</span>
+            <span>Sh_Store</span>
           </a>
         </div>
 
@@ -42,7 +41,7 @@ const Navbarr = () => {
           {/* <AiOutlineSearch className='icon'/> */}
           {/* <AiOutlineHeart  className='icon'/> */}
           <div className="cart-nav">
-            <Link style={{ textDecoration: "none", color: "#fff" }} to="/">
+            <Link style={{ textDecoration: "none", color: "#fff",fontWeight:"bold" }} to="/">
               Home
             </Link>
             <Link

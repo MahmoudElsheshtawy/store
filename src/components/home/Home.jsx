@@ -1,6 +1,7 @@
 import "./Home.css"
 
 import ProductList from "../produuctList/ProductList";
+import Hero from "./Hero";
 
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
   return (
     <div className="section">
 
-        {/* <Hero/> */}
+        <Hero/>
         <ProductList/>
       </div>
   
