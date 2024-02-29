@@ -1,20 +1,20 @@
 .section{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 
    
     background-color: aqua;
     /* margin: auto; */
 }
-.cart{
-    display: grid;
-    grid-template-columns: repeat(auto-fit ,minmax(19rem, 1fr));
-    gap: 1.5rem;
-    background-color: brown;
-    width: 90%;
-    display: flex;
+/* .cart{ */
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit ,minmax(19rem, 1fr)); */
+    /* gap: 1.5rem; */
+    /* background-color: brown; */
+    /* width: 90%; */
+    /* display: flex; */
 
 
-}
+/* } */
 .hero {
 
  position: absolute;
