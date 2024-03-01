@@ -1,19 +1,19 @@
 import "./Home.css"
-import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
-import { fetchProduct } from "../../Redux/slices/productSlice";
+// import { useDispatch, useSelector } from "react-redux";
+// import { useEffect } from "react";
+// import { fetchProduct } from "../../Redux/slices/productSlice";
 // import { addToCart } from "../../Redux/slices/cartSlice";
 import ProductList from "../produuctList/ProductList";
-import Hero from "./Hero";
+// import Hero from "./Hero";
 
 const Home = () => {
-  const products = useSelector((state) => state.products);
-  console.log(products);
-  const dispach = useDispatch();
+  // const products = useSelector((state) => state.products);
+  // console.log(products);
+  // const dispach = useDispatch();
 
-  useEffect(() => {
-    dispach(fetchProduct());
-  }, []);
+  // useEffect(() => {
+  //   dispach(fetchProduct());
+  // }, []);
 
   return (
     <div className="section">

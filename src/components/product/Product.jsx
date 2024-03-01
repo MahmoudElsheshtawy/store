@@ -3,18 +3,18 @@
 import { Link } from "react-router-dom"
 import { useDispatch} from "react-redux";
 
-import { fetchProduct } from "../../Redux/slices/productSlice";
+// import { fetchProduct } from "../../Redux/slices/productSlice";
 import { addToCart } from "../../Redux/slices/cartSlice";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import Img from "../lezylodeimg/Img";
 const Product = (props) => {
     const {product,showButton} =props
     // add to cart
  
     const dispach = useDispatch();
-    useEffect(() => {
-      dispach(fetchProduct());
-    }, []);
+    // useEffect(() => {
+    //   dispach(fetchProduct());
+    // }, []);
   return (
     <>
      <div className="card" style={{background:"#000", width:"220px" ,padding:"10px"}}>

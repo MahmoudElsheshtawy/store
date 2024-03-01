@@ -44,7 +44,7 @@ const ProductList = () => {
 
   return (
     
-    <div>
+    <>
        
 
     <div
@@ -65,7 +65,7 @@ const ProductList = () => {
         </div>
       ))}
     </div>
-  </div>
+  </>
   )
 }
 
