@@ -1,4 +1,4 @@
-/* 
+
 .skeleton {
     position: relative;
     overflow: hidden;
@@ -26,24 +26,9 @@
         100% {
             transform: translateX(100%);
         }
-    } */
-    /* const skItem = () => {
-        return (
-            <div className="skeletonItem">
-                <div className="posterBlock skeleton"></div>
-                <div className="textBlock">
-                    <div className="title skeleton"></div>
-                    <div className="date skeleton"></div>
-                </div>
-            </div>
-        ); */
-        /* <div className="loadingSkeleton">
-        {skItem()}
-        {skItem()}
-        {skItem()}
-        {skItem()}
-        {skItem()}
-</div> */
+    }
+
+
 *{
     /* background-color: rgb(72, 117, 8); */
 }
@@ -69,4 +54,7 @@
     width: 200px;
     height: 250px;
     
+  }
+  .imgDitilse{
+    width: 200px;
   }
