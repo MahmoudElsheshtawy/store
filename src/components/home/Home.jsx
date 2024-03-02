@@ -32,7 +32,7 @@ const Home = () => {
             </div>
         
         ))} */}
-        <Hero/>
+        {/* <Hero/> */}
         <ProductList/>
       </div>
     // </div>

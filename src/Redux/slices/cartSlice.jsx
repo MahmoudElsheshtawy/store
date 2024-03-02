@@ -10,7 +10,7 @@ export const cartSlise = createSlice({
    
    const findProduct = state.find((item)=>item.id === action.payload.id);
    if(findProduct){
-findProduct.quantity +=1;
+       findProduct.quantity +=1;
    }else{
     const productClone={...action.payload ,quantity:1}
      state.push(productClone)
