@@ -4,6 +4,7 @@ import { DletFromCart, clear } from "../../Redux/slices/cartSlice"
 
 
 const Cart = () => {
+  // localStorage.setItem("product" ,JSON.stringify(cart))
   const cart =useSelector((state)=>state.cart)
 const dispatch =useDispatch()
   console.log(cart);
@@ -11,6 +12,7 @@ const dispatch =useDispatch()
     acc+= item.price * item.quantity;
     return acc
   },0)
+
   return (
     <Container style={{paddingTop:'5rem'}}>
       <h1 >wilcome to cart</h1>

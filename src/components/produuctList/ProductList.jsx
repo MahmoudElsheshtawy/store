@@ -48,6 +48,7 @@ const ProductList = () => {
        
 
     <div
+  
       className="categorise"
       style={{ display: "flex", justifyContent: "center", padding: "20px" ,  flexWrap:"wrap"}}
     >
